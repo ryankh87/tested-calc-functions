@@ -33,10 +33,10 @@ function multCalc(x, y) {
 
 // Division Function
 function divCalc(x, y) {
-    const remainder = x % y;
+    const quotient = x / y;
 
     return {
-        value: remainder,
-        description: 'The remainder of ' + x + ' divided by ' + y + ' is ' + remainder
+        value: quotient,
+        description: 'The quotient of ' + x + ' divided by ' + y + ' is ' + quotient
     };
 }

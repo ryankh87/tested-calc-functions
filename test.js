@@ -36,8 +36,8 @@ function testProduct() {
 testProduct();
 
 function testDiv() {
-    const result = divCalc(31, 6);
-    if(result.value !== 1) {
+    const result = divCalc(30, 6);
+    if(result.value !== 5) {
         console.error('testRemainder - value - FAIL', result.value);
     } else {
         console.log('testRemainder - value - SUCCESS');

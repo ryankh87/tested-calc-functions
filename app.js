@@ -1,5 +1,5 @@
 'use strict';
-/* exported showSum, showDifference, showRemainder, remainder, sumCalc, subCalc, divCalc */
+/* exported showSum, showDifference, showRemainder, remainder, sumCalc, subCalc, multCalc divCalc */
 
 // Addition Calc 
 function showSum() {
@@ -29,10 +29,10 @@ function showProduct() {
 }
 
 // Division Calc 
-function showRemainder() {
+function showQuotient() {
     const x = parseInt(document.getElementById('dividend').value);
     const y = parseInt(document.getElementById('divisor').value);
     const result = divCalc(x, y);
-    document.getElementById('remainder').textContent = result.value;
-    document.getElementById('remainder-description').textContent = result.description;
+    document.getElementById('quotient').textContent = result.value;
+    document.getElementById('quotient-description').textContent = result.description;
 }
